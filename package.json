@@ -76,13 +76,11 @@
     "mongodb-uri": "0.9.7",
     "mongoose": "4.0.6",
     "morgan": "1.6.1",
-    "node-libs-browser": "0.5.2",
     "object-assign": "2.1.1",
     "postcss-loader": "0.5.1",
     "react": "0.13.3",
     "react-router": "0.13.3",
     "require-dir": "0.3.0",
-    "style-loader": "0.12.3",
-    "webpack": "1.10.1"
+    "style-loader": "0.12.3"
   }
 }
