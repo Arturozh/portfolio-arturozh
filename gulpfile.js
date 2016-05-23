@@ -12,10 +12,13 @@
 
 var requireDir = require('require-dir');
 
-if (process.env.NODE_ENV !== 'production') {
-  // Require all tasks in gulp/tasks, including subfolders
-  requireDir('./gulp/tasks', { recurse: true });
-} else {
-  // If in production only require tasks necessary for producion build
-  requireDir('./gulp/tasks/production', { recurse: true });
-}
+requireDir('./gulp/tasks', { recurse: true });
+
+// if (process.env.NODE_ENV !== 'production') {
+//   // Require all tasks in gulp/tasks, including subfolders
+//   requireDir('./gulp/tasks', { recurse: true });
+// }
+// else {
+//   // If in production only require tasks necessary for producion build
+//   requireDir('./gulp/tasks/production', { recurse: true });
+// }
